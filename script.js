@@ -12,10 +12,10 @@ function volume_sphere() {
 		vol.value=NaN;
 		return;
 	}
-    vol = (4/3) * Math.PI * Math.pow(r, 3);
+    let volume = (4/3) * Math.PI * Math.pow(r, 3);
 
     // show result
-    vol.value = vol.toFixed(4);
+    vol.value = volume.toFixed(4);
 } 
 
 window.onload = function() {
